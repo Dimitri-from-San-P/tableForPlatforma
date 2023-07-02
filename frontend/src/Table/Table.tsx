@@ -119,10 +119,11 @@ function Table(): JSX.Element {
                         <button
                           type="button"
                           onClick={() => saveColumnNameChange(column.dataField)}
+                          className='saveBtn'
                         >
                           Сохранить
                         </button>
-                        <button type="button" onClick={stopEditingColumn}>
+                        <button type="button" onClick={stopEditingColumn} className='cancelBtn'>
                           Отмена
                         </button>
                       </>

@@ -17,6 +17,7 @@ td {
   border-left: 1px solid black;
   height: 20px;
   font-size: 1.1em;
+  cursor: pointer;
 }
 
 .tableContainer {
@@ -30,12 +31,23 @@ td {
 .editBtn {
   margin-right: 0.1em;
   margin-left: 0.5em;
+  cursor: pointer;
 }
 
 .visibleBtn {
   margin-left: 0.3em;
+  cursor: pointer;
 }
 
 .showColumnsBtn {
   margin: 1em;
+  cursor: pointer;
+}
+
+.saveBtn {
+  cursor: pointer;
+}
+
+.cancelBtn {
+  cursor: pointer;
 }
